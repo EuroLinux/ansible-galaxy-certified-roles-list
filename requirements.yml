@@ -1,0 +1,81 @@
+---
+roles:
+  # windows
+  - src: https://github.com/ansible-collections/ansible.windows
+    version: "1.7.3"
+  # f5
+  - src: https://github.com/F5Networks/f5-ansible
+    version: "5eba98d"
+  # google cloud
+  - src: https://github.com/ansible-collections/google.cloud
+    version: "65f0a7a"
+
+  # cisco nxos
+  - src: https://github.com/ansible-collections/cisco.nxos
+    version: "2.7.0"
+  # cisco asa 
+  - src: https://github.com/ansible-collections/cisco.asa
+    version: "2.1.0"
+
+  # cisco ios
+  - src: https://github.com/ansible-collections/cisco.ios
+    version: "2.5.0"
+  # cisco iosxr
+  - src: https://github.com/ansible-collections/cisco.iosxr
+    version: "2.5.0"
+
+  # rhel or other linux
+  - src: https://github.com/linux-system-roles/network
+    version: "1.4.0"
+  - src: https://github.com/linux-system-roles/mssql
+    version: "0.1"
+  - src: https://github.com/linux-system-roles/cockpit
+    version: "1.1.1"
+  - src: https://github.com/linux-system-roles/timesync
+    version: "1.6.1"
+  - src: https://github.com/linux-system-roles/nbde_client
+    version: "1.1.0"
+  - src: https://github.com/linux-system-roles/storage
+    version: "1.6.2"
+  - src: https://github.com/linux-system-roles/vpn
+    version: "1.2.1"
+  - src: https://github.com/linux-system-roles/selinux
+    version: "1.3.2"
+  - src: https://github.com/linux-system-roles/certificate
+    version: "1.1.0"
+  - src: https://github.com/linux-system-roles/logging
+    version: "1.6.0"
+  - src: https://github.com/linux-system-roles/kernel_settings
+    version: "1.1.1"
+  - src: https://github.com/linux-system-roles/nbde_server
+    version: "1.1.0"
+  - src: https://github.com/linux-system-roles/firewall
+    version: "0.3.0"
+  - src: https://github.com/linux-system-roles/bootloader
+    version: "51805d0"
+  - src: https://github.com/linux-system-roles/ssh
+    version: "1.1.1"
+  - src: https://github.com/linux-system-roles/ha_cluster
+    version: "1.3.1"
+  - src: https://github.com/linux-system-roles/crypto_policies
+    version: "1.2.1"
+  - src: https://github.com/linux-system-roles/tlog
+    version: "1.2.1"
+  - src: https://github.com/linux-system-roles/metrics
+    version: "1.3.2"
+  - src: https://github.com/linux-system-roles/postfix
+    version: "1.1.1"
+  - src: https://github.com/linux-system-roles/kdump
+    version: "1.1.1"
+  - src: https://github.com/linux-system-roles/sap-netweaver-preconfigure
+    version: "3.1.1"
+  - src: https://github.com/linux-system-roles/sap-hana-preconfigure
+    version: "3.1.1"
+  - src: https://github.com/linux-system-roles/sap-preconfigure
+    version: "3.1.1"
+  - src: https://github.com/linux-system-roles/tuned
+    version: "0.1"
+  - src: https://github.com/linux-system-roles/image_builder
+    version: "0.4.1"
+  - src: https://github.com/linux-system-roles/sap-base-settings
+    version: "5d5d5ed"
