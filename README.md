@@ -10,3 +10,6 @@ To install certified roles and collections run script [install_roles_and_collect
 
 To chose role that should't by installed simply put # character before it in file [requirements.yml](.requirements.yml)
 Te exclude collection from being installed put # character before its occurrence in `collections` declaration in file [install_roles_and_collections.sh](./install_roles_and_collections.sh)
+
+
+### More info about using ansible galaxy with EuroTower can be found in [open documentation](https://en.euro-linux.com/docs/ansible.php?p=galaxy/user_guide)
